@@ -1,0 +1,12 @@
+name: firstpipeline
+
+on:
+  workflow_dispatch:
+
+jobs:
+  printoutput:
+    runs-on:
+      - ubuntu-20.04
+    steps:
+      - name: printoutput
+        run: echo "Hello World from github action"
