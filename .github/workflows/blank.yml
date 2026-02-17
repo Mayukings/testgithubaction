@@ -6,7 +6,7 @@ on:
 jobs:
   printoutput:
     runs-on:
-      - ubuntu-20.04
+      - ubuntu-24.04
     steps:
       - name: printoutput
-        run: echo "Hello World from github action"
+        run: echo "first run" 
